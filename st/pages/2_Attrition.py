@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("C:/Users/ragu/Mini_pj_4/Streamlet UI/Model/v2_Attr_rf_mdl_1.pkl")
+model = joblib.load("/workspaces/mini_pj_4/st/Model/v2_Attr_rf_mdl_1.pkl")
 
 st.set_page_config(page_title="Attrition Predictor", layout="centered")
 

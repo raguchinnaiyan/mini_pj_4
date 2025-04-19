@@ -23,7 +23,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.markdown("### 🔄 Employee Attrition Prediction")
-    st.image("C:\\Users\\ragu\\Mini_pj_4\\Streamlet UI\\Images\\employee-attrition.png", width=650)
+    st.image("/workspaces/mini_pj_4/st/Images/employee-attrition.png", width=650)
     st.markdown("""
     - Predict if an employee is at risk of leaving.
     - Explore key factors like job role, satisfaction, salary, and more.
@@ -32,7 +32,7 @@ with col1:
 
 with col2:
     st.markdown("### 📈 Performance Evaluation")
-    st.image("Images\employee-performance.png", width=310)
+    st.image("/workspaces/mini_pj_4/st/Images/employee-performance.png", width=310)
     st.markdown("""
     - Evaluate employee performance levels.
     - Understand contributors to high and low performance.

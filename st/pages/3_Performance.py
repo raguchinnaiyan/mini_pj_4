@@ -4,10 +4,10 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 
 #Load the trained model
-model = joblib.load("C:/Users/ragu/Mini_pj_4/Streamlet UI/Model/v3_emp_perf_mdl_2.pkl")
+model = joblib.load("/workspaces/mini_pj_4/st/Model/v3_emp_perf_mdl_2.pkl")
 
 # scaler 
-scaler = joblib.load("C:/Users/ragu/Mini_pj_4/Streamlet UI/Model/scaler.pkl")
+scaler = joblib.load("/workspaces/mini_pj_4/st/Model/scaler.pkl")
 
 #Streamlit UI
 st.title("🧠 Employee Performance Rating Predictor")
